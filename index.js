@@ -3,14 +3,12 @@ function isPalindrome(word) {
   function reversedWord(word) {
     return word.toString().split("").reverse().join("");
   }
-
-  function isPalindrome(word) {
-    const reversedWord = reverseWord(word)
-    if (word === reversedWord) {
-      return true;
-    } else {
-      return false;
-    }
+  
+  const reversedWord = reverseWord(word)
+  if (word === reversedWord) {
+    return true;
+  } else {
+    return false;
   }
 }
 
