@@ -5,7 +5,7 @@ function isPalindrome(word) {
   }
 
   const reversedWord = reverseWord(word)
-  if (word === reversedWord) {
+  if (word.toLowerCase() === reversedWord.toLowerCase()) {
     return true;
   } else {
     return false;
